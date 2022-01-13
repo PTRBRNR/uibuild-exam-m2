@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+.container {
+  background-color: #f7e4d4;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+}
+
+h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 48px;
+  font-weight: normal;
+  color: #467745;
+}
+
+@media only screen and (max-width: 520px) {
+  .form {
+    align-items: flex-start;
+  }
+}
+
+.targy {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: medium;
+  width: 480px;
+  height: 64px;
+  padding: 20px;
+  border: none;
+  align-items: center;
+}
+
+.megjegyzes {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  width: 480px;
+  height: 120px;
+  padding: 20px;
+  border: none;
+}
+
+@media only screen and (max-width: 520px) {
+  .form {
+    margin: 0px 20px;
+  }
+
+  .targy {
+    width: 100%;
+  }
+
+  .megjegyzes {
+    width: 100%;
+  }
+}
+
+::placeholder {
+  opacity: 0.5;
+}
+
+.checkbox {
+  color: #467745;
+}
+label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+button {
+  font-family: "EB Garamond", serif;
+  font-size: 21px;
+  width: 280px;
+  height: 80px;
+  background-color: #467745;
+  color: #f7e4d4;
+  border-radius: 50px;
+  border: none;
+  letter-spacing: 0.2em;
+}
+
+span {
+  text-decoration: underline;
+}
